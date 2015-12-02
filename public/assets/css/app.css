@@ -1,0 +1,107 @@
+body {
+	background-color: #000;
+	font-size: 16px;
+}
+
+h1 {
+	color: white;
+}
+
+.container {
+	max-width: 768px;
+}
+
+.bg-blue {
+	background-color: #18A3F9;
+}
+
+.bg-black {
+	background-color: black;
+	color: white;
+}
+
+.bg-black li a {
+	color: #18A3F9;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-red {
+	background-color: #CD3E3E;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+}
+
+section {
+	padding: 2em;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+#navbar {
+	background-color: #000;
+}
+
+#downloadForm input,
+#downloadForm button,
+#kgSearchModalForm input,
+#kgSearchModalForm button {
+	height: 50px;
+	font-weight: bold;
+}
+
+#downloadForm input,
+#kgSearchModalForm input {
+	font-size: 1.5em;
+}
+
+#second-main {
+	display: none;
+}
+
+span.error {
+	display: none;
+}
+
+.padding1 {
+	padding: 1.1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#kontakModal .modal-body {
+	min-height: 140px;
+}
+
+#notice-section {
+	display: none;
+}
+
+.navbar-brand {
+    padding-top: 4px;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.header-image {
+	width: 100px;
+	/*margin-top: 20px;*/
+}
+
+@media screen and (max-width: 695px) {
+    .fab {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 696px ) {
+	.hidden695 {
+		display: none;
+	}
+}
