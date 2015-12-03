@@ -3,7 +3,7 @@
 return [
 	'name' 			=> 'Keeng Gratis',
 	'description' 	=> 'Telechaje Mizik Keeng yo Gratis Ti Cheri!',
-	'url'			=> 'http://keenggratis.ml',
+	'url'			=> 'http://linkpam.ml',
 	'twitter' 		=> 'KeengFree',
 	'twitter@' 		=> '@KeengFree',
 	'logo'			=> '/assets/images/logo.jpg',
