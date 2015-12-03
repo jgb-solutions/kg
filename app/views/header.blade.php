@@ -34,11 +34,6 @@
 
 	@include('styles')
 
-	<link
-		rel="icon"
-		href="{{ Config::get('site.favicon') }}"
-		type="image/x-icon">
-
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -47,8 +42,7 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="container visible-xs" id="wrapper">
-
+	<div class="container visible-xs">
 		<div class="row">
 			@include('navigation')
 		</div>
@@ -70,5 +64,3 @@
 			</div>
 		</div>
 	</header>
-	<section id="main" class="bg-blue">
-		<div class="container">

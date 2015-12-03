@@ -54,7 +54,7 @@
 						<span class="text-danger error">Fòk ou ekri mesaj ou a</span>
 					</div>
 
-					<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-glyphicon glyphicon-send"></span> Voye Mesaj la</button>
+					<button type="submit" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-glyphicon glyphicon-send"></span> Voye Mesaj la</button>
 				</form>
 
 				<div id="response"></div>

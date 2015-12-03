@@ -17,6 +17,9 @@ $(function()
 	$downloadButton 		= $('#download-button');
 	$main 					= $('#main');
 	$sMain 					= $('#second-main');
+	$submitButton			= $('#submit-button');
+	$submitButtonHTML		= $submitButton.html();
+	$ajaxLoaderImg			= '<img src="/assets/images/ajax-loader.gif">';
 
 	$notice = 0;
 	$response = $('#response');
@@ -32,6 +35,7 @@ $(function()
 
 		if ( $url.length > 0 )
 		{
+			$submitButton.html( $ajaxLoaderImg );
 			$nSection.slideUp();
 			sendUrl( $url );
 		} else {
@@ -46,6 +50,8 @@ $(function()
 	{
 		event.preventDefault();
 		// console.log('clicked');
+		$submitButton.html( $submitButtonHTML );
+
 		$input.val('');
 		$main.slideDown(function()
 		{
@@ -122,7 +128,7 @@ $(function()
 
 			$response.html('');
 
-			$this.find('button[type=submit]').text(' Mesaj la prale la a...').prepend( $voye );
+			$this.find('button[type=submit]').html( $ajaxLoaderImg );
 
 			var $data = $this.serialize();
 
@@ -133,7 +139,7 @@ $(function()
 
 				var anchor = $('<button></button>',
 				{
-					'class': 'btn btn-success',
+					'class': 'btn btn-success btn-lg',
 					'id'	 : 'resetForm',
 					'text' : 'Voye yon lòt mesaj'
 				});
@@ -203,6 +209,7 @@ function sendUrl()
 			$sMain.slideDown();
 		} else
 		{
+			$submitButton.html( $submitButtonHTML );
 			$nSection.find('.errors').html('<h3>Nou pa reyisi telechaje mizik ou vle a nan lyen ou mete a. Itilize yon lòt lyen Keeng.</h3>');
 			$nSection.slideDown();
 		}

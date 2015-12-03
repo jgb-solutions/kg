@@ -19,10 +19,10 @@
 							name="q"
 							type="text"
 							class="form-control"
-							placeholder="Tape yon tit mizik ou vle chèche sou Keeng">
+							placeholder="Tape sa ou vle chèche a">
 						<span class="input-group-btn">
 							<button class="btn btn-primary" type="submit">
-								<i class="fa fa-search"></i>
+								<i class="fa fa-2x fa-search"></i>
 							</button>
 						</span>
 					</div>
