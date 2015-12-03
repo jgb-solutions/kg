@@ -13,7 +13,8 @@ module.exports = function( grunt )
 					'public/assets/js/build/app.js': [
 						'public/assets/js/lib/jquery.min.js',
 						'public/assets/js/lib/bootstrap.min.js',
-						'public/assets/js/app.min.js'
+						'public/assets/js/app.min.js',
+						'public/assets/js/kg-analytics.js'
 					]
 				}
 			},

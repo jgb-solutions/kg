@@ -96,6 +96,5 @@
 @include('info')
 @include('contact')
 @include('scripts')
-
 </body>
 </html>
